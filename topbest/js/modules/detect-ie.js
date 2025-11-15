@@ -1,0 +1,1 @@
+define((function(){const e=navigator.userAgent;(/* @cc_on!@ */document.documentMode||window.StyleMedia)&&document.querySelector("#site-wrapper").classList.add("ie"),/^((?!chrome|android).)*safari/i.test(e)&&requestAnimationFrame((()=>{const t=e.match(/Version\/([\d.]+)/),a=t?parseFloat(t[1]):1/0;document.documentElement.classList.add(a<15?"safari-old":"safari")}))}));

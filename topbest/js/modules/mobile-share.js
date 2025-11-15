@@ -1,0 +1,1 @@
+define(["jquery"],(function(e){e(document).on("click",".js-share-toggle",(function(t){e(window).width()<=1200&&e(t.currentTarget).toggleClass("active")})),e(document).on("click",".js-share-drop",(function(t){e(window).width()<=1024&&e(t.currentTarget).toggleClass("active")}))}));

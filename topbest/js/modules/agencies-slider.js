@@ -1,0 +1,1 @@
+define(["swiper"],(function(e){new e(".js-agencies-slider",{spaceBetween:30,grabCursor:!0,centerSlides:!0,loop:!0,loopAdditionalSlides:1,slidesPerView:1,pagination:{el:".js-agencies-slider-pagination",type:"bullets"}})}));

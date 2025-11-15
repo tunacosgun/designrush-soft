@@ -1,0 +1,1 @@
+define(["jquery"],(function(e){e(document).ready((function(){e(document).on("click",".js-view-more-categories",(function(n){n.preventDefault();var l=e(this).closest(".js-agency-category-section");l.hasClass("full")?(l.removeClass("full"),l.find("li:nth-child(n+7)").slideUp("100")):(l.addClass("full"),l.find("li").slideDown("100"))}))}))}));

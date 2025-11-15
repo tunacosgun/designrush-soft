@@ -1,0 +1,1 @@
+define((function(){function e(){const e=document.getElementById("deferred-styles");if(e){const t=document.createElement("div");t.innerHTML=e.textContent,document.body.appendChild(t),e.remove()}}const t=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;t?t((()=>setTimeout(e,0))):addEventListener("load",e)}));

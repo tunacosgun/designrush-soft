@@ -1,0 +1,1 @@
+define([],(function(t){document.addEventListener("click",(function(t){const n=t.target.closest("[data-js-url]");if(!n)return;if(window.innerWidth<1201&&n.classList.contains("js-mob-nav-toggler"))return;t.preventDefault();const e=n.getAttribute("data-js-url"),i=n.getAttribute("target");i?window.open(e,i):window.location.href=e}))}));
