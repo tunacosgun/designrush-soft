@@ -63,3 +63,9 @@ Because this project is built gracefully with pure frontend web technologies, ab
 <div align="center">
 <b>Building digital presence that converts.</b>
 </div>
+
+
+## Contributors
+
+- Tunahan Coşgun — <info@tunahancosgun.dev>
+- Duygu Durmuş — <duygudurmus12@gmail.com>
